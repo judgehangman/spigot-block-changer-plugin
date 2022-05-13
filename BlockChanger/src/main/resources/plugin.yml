@@ -1,0 +1,10 @@
+name: BlockChanger
+version: '${project.version}'
+main: me.judgehangman.blockchanger.BlockChanger
+api-version: 1.18
+authors: [ judgehangman ]
+description: Changes blocks!
+commands:
+  bc:
+    description: Starts or stops block changer mode!
+    usage: /<bcstart> [start] [stop]
